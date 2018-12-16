@@ -8,7 +8,10 @@
 <a id="solution"></a>
 ![Image](img/solution.png)
 
-<div class="titles" style="co"> Why Food for Good? </div>
+<style>
+.titles {color:red;}
+</style>
+<div class="titles"> Why Food for Good? </div>
 
 
 Do you often struggle with making good food choices? Do you feel torn between seemingly “healthy” and “unhealthy” food? Are you attracted by the flashy colors of sugary snacks and repulsed by the seemingly boring healthy food?
