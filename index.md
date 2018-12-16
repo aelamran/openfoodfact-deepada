@@ -14,6 +14,7 @@ p{
   text-align: center;
   color: green;
 }
+label{position:relative;text-decoration:underline;top:-30px;font-size:17px !important;}
 </style>
 # Why Food for Good?
 
