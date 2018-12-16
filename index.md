@@ -35,6 +35,10 @@ The dataset used in this study is acquired from [Open Food Fact](https://world.o
 
 In May 2016, the database contained more than 80,000 products from 141 countries. In June 2017,  this number rose to 330,000, thanks to the growing ecosystem of apps and open data imports from various countries.
 
+
+<img src="img/compare_and_change.png" alt="solution">
+
+
 The dataset contained the food products database, in particular the following features:
 
 * Generalities: these fields contain general informations on the products of our dataset, their dates, modifications, product name, code bar of the product, the quantity, etc.
@@ -59,8 +63,8 @@ The dataset contains roughly 700 000 lines and 173 columns, with a high and prev
 
 # Data Analysis
 
+## Decode labels
 
-## How to make better food choices?
 
 Just like what we said before, we are living in a world full of a variety of food products. Our immersion in this variety makes it difficult for us to make choices about the food we eat. Indeed, we would like to eat delicious healthy food, and this is the main problem. Most of the time, what we consider delicious is unhealthy and has bad effects on our mood, fatigue,  and life longevity. So how can we make a good balance in our choices of healthy food?
 
@@ -73,6 +77,10 @@ In order to go into more details, our dataset provides us with an interesting nu
 ![Image](img/grades_dominant_categories.png)
 
 This first approach shows us that the "Plant-based-and-Beverages" products have the most products with "A". However, this same category also has a good amount of bad products, it is balanced/centered around "C". Beverages and Sugary snacks seem to be the worst products and Dairies are a little bit balanced containing lots of products in "B" and "C" and "D" and some products in "E" too.
+
+
+## Compare and choose
+
 
 Through our analysis, we noticed that products containing palm oil/additives are usually considered as unhealthy, let’s look on the top 3 categories containing additives/palm oil and the distribution of their nutritional scores :
 
@@ -102,17 +110,17 @@ We noticed that sugar, salt, fat and proteins are usually the nutrients that dri
 
 So we clearly notice that unhealthy products seem to have lots of amounts of sugar, fat and salt compared to healthy ones. Concerning Proteins, healthy products are among the ones that have the highest amounts of proteins in them.
 
-Let's now have a preview on the different good products that we find:
+## How to make better food choices?
+
+Let's have a preview on the different good products that we find:
 
 <img src="img/wordmap_healthy.png" alt="solution">
 
 In general, we can advice customers who want to eat sugary foods and products that usually seem to be unhealthy to stick to some good labels (organic, lactose free, bio ...) in their food choices. Not only good labels but also stick to products that are plant based, non processed, avoid additives and palm oil, the word map resumes the choice of products in a good way. Furthermore, one can innove and make some good home made healthy recipes from these healthy products. One good step to follow up on our analysis is to propose these healthy recipes and mixtures of good products in order to produce healthy delicious non industrial home made food.
 
 <div class="quote"> Knowledge is power. Food knowledge is power to eat better! </div>
-<a id="corn_flakes"></a>
-![Image](img/corn_flakes.png)
 
 
 
-<a id="compare_and_change"></a>
-![Image](img/compare_and_change.png)
+
+
