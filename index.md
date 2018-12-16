@@ -14,15 +14,7 @@
 Do you often struggle with making good food choices? Do you feel torn between seemingly “healthy” and “unhealthy” food? Are you attracted by the flashy colors of sugary snacks and repulsed by the seemingly boring healthy food?
 In an era where transparency is needed and requested more than ever, but not always provided, it is important to know what we put in our plates. Food is at the core of our daily survival and is usually the factor that has the biggest influence on our health. Its effects are so wide that they are not always known and are often controversial. 
 Maybe this is why you usually feel overwhelmed with all the available information, that is often contradictory? Why you often hesitate numerous times in the supermarket aisles?
-Lucky for you, nowadays, we have access to many sources of documentation that can help us make better choices. One of those is open source, made by a non-profit organization and not influenced by the industry: the [Open Food Facts Database.](https://world.openfoodfacts.org/data)
-
-
-# Approach and Data Preprocessing :
-
-In this project, we are going to dig deeply into the several pieces of information we have about the products that are registered in the open food fact dataset. Our goal is to identify the impact of the food products that we consume on the Human Health, focusing on the composition of the food we eat, based on the different macros these different types of food provide and also on their micros. The ultimate purpose being making better and healthier food choices.
-
-The dataset contains roughly 700 000 lines and 173 columns, with a high and prevalent number of NaN values, and since all the columns have at least one NaN value in them, we decided to only drop them after importing the important columns. So at each step of our study, we removed the NaNs only after extracting the fields needed, in order to stay accurate through the analysis. Furthermore, since OpenFoodFacts is an open and public database that can be used by everyone and without the check of the user inputs, a lot of errors occurs when entering the features. Then, we had to look closer at the given data and analyze possible false data. We tried to reduce some mistakes by correcting obvious errors. For example, many errors concern the energy a product contains, with incoherent high values for that energy, or even also negative values.
-
+Lucky for you, nowadays, we have access to many sources of documentation that can help us make better choices. One of those is open source, made by a non-profit organization and not influenced by the industry: the [Open Food Facts Database](https://world.openfoodfacts.org/data)
 
 # Dataset
 
@@ -41,11 +33,30 @@ The dataset contained the food products database in particular the following fea
 * Nutrition facts: these fields contain anything that relates to nutriments, macros and micros.
 
 
-<a id="corn_flakes"></a>
-![Image](img/corn_flakes.png)
+# Approach Data Preprocessing :
+
+In this project, we are going to dig deeply into the several pieces of information we have about the products that are registered in the open food fact dataset. Our goal is to identify the impact of the food products that we consume on the Human Health, focusing on the composition of the food we eat, based on the different macros these different types of food provide and also on their micros. The ultimate purpose being making better and healthier food choices.
+
+The dataset contains roughly 700 000 lines and 173 columns, with a high and prevalent number of NaN values, and since all the columns have at least one NaN value in them, we decided to only drop them after importing the important columns. So at each step of our study, we removed the NaNs only after extracting the fields needed, in order to stay accurate through the analysis. Furthermore, since OpenFoodFacts is an open and public database that can be used by everyone and without the check of the user inputs, a lot of errors occurs when entering the features. Then, we had to look closer at the given data and analyze possible false data. We tried to reduce some mistakes by correcting obvious errors. For example, many errors concern the energy a product contains, with incoherent high values for that energy, or even also negative values.
+
+# Data Analysis
+
+## How to make better food choices?
+
+Just like what we said before, we are living in a world full of a variety of food products. Our immersion in this variety makes it difficult for us to make choices about the food we eat. Indeed, we would like to eat delicious healthy food, and this is the main problem. Most of the time, what we consider delicious is usually unhealthy, it has bad effects on our health, fatigue, mood and life longevity. So how can we make a good balance in our choices of healthy food? 
 
 <a id="grades"></a>
 ![Image](img/grades.png)
+
+In order to go in more details, our dataset provides us with an interesting nutritional score. Our scores vary from “A” to “E”, “A” being the best score a product can have and “E” the worst one. We also have several categories of products. Let’s zoom in the scores of the products for our dominant daily food categories : 
+
+<a id="distrib1"></a>
+![Image](img/distrib1.png)
+
+<a id="corn_flakes"></a>
+![Image](img/corn_flakes.png)
+
+
 
 <a id="compare"></a>
 ![Image](compare_and_change.png)
