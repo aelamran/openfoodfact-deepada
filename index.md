@@ -1,7 +1,4 @@
 
-<a id="cake"></a>
-![Image](img/cake.png)
-
 <a id="healthy"></a>
 ![Image](img/healthy.png)
 
@@ -17,6 +14,9 @@
 # Why Food for Good?
 
 Do you often struggle with making good food choices? Do you feel torn between seemingly “healthy” and “unhealthy” food? Are you attracted by the flashy colors of sugary snacks and repulsed by the seemingly boring healthy food?
+
+<img src="img/cake.png" alt="Cake" width="42" height="42">
+
 In an era where transparency is needed and requested more than ever, but not always provided, it is important to know what we put in our plates. Food is at the core of our daily survival and is usually the factor that has the biggest influence on our health. Its effects are so wide that they are not always known and are often controversial.
 Maybe this is why you usually feel overwhelmed with all the available information, that is often contradictory? Why you often hesitate numerous times in the supermarket aisles?
 Lucky for you, nowadays, we have access to many sources of documentation that can help us make better choices. One of those is open source, made by a non-profit organization and not influenced by the industry: the [Open Food Facts Database](https://world.openfoodfacts.org/data)
