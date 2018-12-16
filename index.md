@@ -8,7 +8,9 @@
 <a id="solution"></a>
 ![Image](img/solution.png)
 
-# Why Food for Good ?
+
+# Why Food for Good?
+
 
 Do you often struggle with making good food choices? Do you feel torn between seemingly “healthy” and “unhealthy” food? Are you attracted by the flashy colors of sugary snacks and repulsed by the seemingly boring healthy food?
 In an era where transparency is needed and requested more than ever, but not always provided, it is important to know what we put in our plates. Food is at the core of our daily survival and is usually the factor that has the biggest influence on our health. Its effects are so wide that they are not always known and are often controversial. 
@@ -53,15 +55,15 @@ Just like what we said before, we are living in a world full of a variety of foo
 In order to go in more details, our dataset provides us with an interesting nutritional score. Our scores vary from “A” to “E”, “A” being the best score a product can have and “E” the worst one. We also have several categories of products. Let’s zoom in the scores of the products for our dominant daily food categories : 
 
 <a id="distrib1"></a>
-![Image](img/distrib1.png)
+![Image](img/grades_dominant_categories.png)
 
 Through our analysis, we noticed that products containing palm oil/additives are usually considered as unhealthy, let’s look on the top 3 categories containing additives/palm oil and the distribution of their nutritional scores :
 
 <a id="addtop3"></a>
-![Image](img/top3add.png)
+![Image](img/additives_scores.png)
 
 <a id="palmtop3"></a>
-![Image](img/top3palm.png)
+![Image](img/palm_oil_scores.png)
 
 So we clearly see that products having lots of amounts of palm oil and additives are usually ranked in a bad way. However, some of them seem to have exceptions which lead us to look into other features. These features are in general the several macronutrients (Proteins, fat and carbohydrates) but also in particular sugar and salt.
 
