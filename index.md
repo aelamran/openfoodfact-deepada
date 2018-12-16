@@ -13,7 +13,7 @@ header {
   background-image: url('{{ site.baseurl }}/img/logo.png');
 }
 h1 {color:red;}
-.page-header {color:yellow;}
+.page-header {background-image: url('{{ site.baseurl }}/img/logo.png');}
 </style>
 # Why Food for Good?
 
