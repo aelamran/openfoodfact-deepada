@@ -1,8 +1,21 @@
-![Octocat]
-(img/cake.png)
 
-<a id="Overview on patents growth"></a>
+<a id="cake"></a>
+![Image](img/cake.png)
+
+<a id="healthy"></a>
 ![Image](img/healthy.png)
+
+<a id="solution"></a>
+![Image](solution.png)
+
+
+# Why Food for Good ?
+
+Do you often struggle with making good food choices? Do you feel torn between seemingly “healthy” and “unhealthy” food? Are you attracted by the flashy colors of sugary snacks and repulsed by the seemingly boring healthy food?
+In an era where transparency is needed and requested more than ever, but not always provided, it is important to know what we put in our plates. Food is at the core of our daily survival and is usually the factor that has the biggest influence on our health. Its effects are so wide that they are not always known and are often controversial. 
+Maybe this is why you usually feel overwhelmed with all the available information, that is often contradictory? Why you often hesitate numerous times in the supermarket aisles?
+Lucky for you, nowadays, we have access to many sources of documentation that can help us make better choices. One of those is open source, made by a non-profit organization and not influenced by the industry: the [Open Food Facts Database.](https://world.openfoodfacts.org/data)
+
 
 # Approach and Data Preprocessing :
 
@@ -26,6 +39,16 @@ The dataset contained the food products database in particular the following fea
 * Ingredients: these fields contain features about ingredients.
 
 * Nutrition facts: these fields contain anything that relates to nutriments, macros and micros.
+
+
+<a id="corn_flakes"></a>
+![Image](img/corn_flakes.png)
+
+<a id="grades"></a>
+![Image](img/grades.png)
+
+<a id="compare"></a>
+![Image](compare_and_change.png)
 
 
 
