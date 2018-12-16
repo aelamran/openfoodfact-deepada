@@ -41,10 +41,11 @@ In this project, we are going to dig deeply into the several pieces of informati
 The dataset contains roughly 700 000 lines and 173 columns, with a high and prevalent number of NaN values, and since all the columns have at least one NaN value in them, we decided to only drop them after importing the important columns. So at each step of our study, we removed the NaNs only after extracting the fields needed, in order to stay accurate through the analysis. Furthermore, since OpenFoodFacts is an open and public database that can be used by everyone and without the check of the user inputs, a lot of errors occurs when entering the features. Then, we had to look closer at the given data and analyze possible false data. We tried to reduce some mistakes by correcting obvious errors. For example, many errors concern the energy a product contains, with incoherent high values for that energy, or even also negative values.
 
 
-# Data Analysis
+
+# Data Analysis
 
 
-## How to make better food choices?
+## How to make better food choices?
 
 
 Just like what we said before, we are living in a world full of a variety of food products. Our immersion in this variety makes it difficult for us to make choices about the food we eat. Indeed, we would like to eat delicious healthy food, and this is the main problem. Most of the time, what we consider delicious is usually unhealthy, it has bad effects on our health, fatigue, mood and life longevity. So how can we make a good balance in our choices of healthy food? 
