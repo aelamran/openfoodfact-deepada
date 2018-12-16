@@ -109,19 +109,19 @@ We noticed that sugar, salt, fat and proteins are usually the nutrients that dri
 
 Let’s have a look at the features on which we see some slight differences  (sugar, salt, fat and proteins):
 
-#### Density distribution of Fat over the products
+#### Density distribution of Fat over the products:
 <a id="distrib2"></a>
 ![Image](img/distrib2.png)
 
-#### Density distribution of Protein over the products
+#### Density distribution of Protein over the products:
 <a id="distrib4"></a>
 ![Image](img/distrib4.png)
 
-#### Density distribution of Sugar over the products
+#### Density distribution of Sugar over the products:
 <a id="distrib5"></a>
 ![Image](img/distrib5.png)
 
-#### Quantity of Salt over the products
+#### Quantity of Salt over the products:
 <a id="distrib3"></a>
 ![Image](img/distrib3.png)
 
