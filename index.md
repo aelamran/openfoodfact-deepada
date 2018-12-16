@@ -1,3 +1,6 @@
+How about enjoying a delicious cake ?
+<a id="Overview on patents growth"></a>
+![Image](img/cakes_pastry_desserts_fruits_strawberry_creamy_butter_sugary-978723.png)
 
 # Abstract
 
