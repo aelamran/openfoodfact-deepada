@@ -7,6 +7,12 @@ img{transform:scale(0.8);
       display: block;
       margin-left:auto;
       margin-right:auto;}
+p{
+  text-align:justify;
+}
+.quote{
+  text-align: center;
+}
 </style>
 # Why Food for Good?
 
@@ -42,6 +48,9 @@ The dataset contained the food products database, in particular the following fe
 # Approach and Data Preprocessing :
 
 In this project, we are going to dig deeply into the several pieces of information we have about the products that are registered in the open food fact dataset. Our goal is to identify the impact of the food products that we consume on the Human Health, focusing on the composition of the food we eat, based on the different macros these different types of food provide and other concerning ingredients. The ultimate purpose being making better and healthier food choices.
+
+<img src="img/open_data.png" alt="openData">
+
 
 The dataset contains roughly 700 000 lines and 173 columns, with a high and prevalent number of NaN values, and since all the columns have at least one NaN value in them, we decided to only drop them after importing the important columns. So at each step of our study, we removed the NaNs only after extracting the fields needed, in order to stay accurate through the analysis. Furthermore, since OpenFoodFacts is an open and public database that can be used by everyone and without the check of the user inputs, a lot of errors occur when entering the features. Then, we had to look closer at the given data and analyze possible false data. We tried to reduce some mistakes by correcting obvious errors. For example, many errors concern the energy a product contains, with incoherent high values for that energy, or even also negative values.
 
@@ -97,6 +106,8 @@ Let's now have a preview on the different good products that we find:
 <img src="img/wordmap_healthy.png" alt="solution">
 
 In general, we can advice customers who want to eat sugary foods and products that usually seem to be unhealthy to stick to some good labels (organic, lactose free, bio ...) in their food choices. Not only good labels but also stick to products that are plant based, non processed, avoid additives and palm oil, the word map resumes the choice of products in a good way. Furthermore, one can innove and make some good home made healthy recipes from these healthy products. One good step to follow up on our analysis is to propose these healthy recipes and mixtures of good products in order to produce healthy delicious non industrial home made food.
+
+<div class="quote"> Knowledge is power. Food knowledge is power to eat better! </div>
 <a id="corn_flakes"></a>
 ![Image](img/corn_flakes.png)
 
