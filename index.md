@@ -30,7 +30,7 @@ In an era where transparency is needed and requested more than ever, but not alw
 Maybe this is why you usually feel overwhelmed with all the available information, that is often contradictory? Why you often hesitate numerous times in the supermarket aisles?
 
 
-Lucky for you, nowadays, we have access to many sources of documentation that can help us make better choices. One of those is open source, made by a non-profit organization and not influenced by the industry: the [Open Food Facts Database](https://world.openfoodfacts.org/data)
+Lucky for you, nowadays, we have access to many sources of documentation that can help us make better choices. One of those is open source, made by a non-profit organization and not influenced by the industry: the Open Food Facts Database.
 <img src="img/solution.png" alt="solution">
 
 # Dataset
@@ -61,7 +61,10 @@ In this project, we are going to dig deeply into the several pieces of informati
 <img src="img/open_data.png" alt="openData">
 
 
-The dataset contains roughly 700 000 lines and 173 columns, with a high and prevalent number of NaN values, and since all the columns have at least one NaN value in them, we decided to only drop them after importing the important columns. So at each step of our study, we removed the NaNs only after extracting the fields needed, in order to stay accurate through the analysis. Furthermore, since OpenFoodFacts is an open and public database that can be used by everyone and without the check of the user inputs, a lot of errors occur when entering the features. Then, we had to look closer at the given data and analyze possible false data. We tried to reduce some mistakes by correcting obvious errors. For example, many errors concern the energy a product contains, with incoherent high values for that energy, or even also negative values.
+The dataset contains roughly 700 000 lines and 173 columns, with a high and prevalent number of NaN values, and since all the columns have at least one NaN value in them, we decided to only drop them after importing the important columns. So at each step of our study, we removed the NaNs only after extracting the fields needed, in order to stay accurate through the analysis. 
+
+
+Furthermore, since OpenFoodFacts is an open and public database that can be used by everyone and without the check of the user inputs, a lot of errors occur when entering the features. Then, we had to look closer at the given data and analyze possible false data. We tried to reduce some mistakes by correcting obvious errors. For example, many errors concern the energy a product contains, with incoherent high values for that energy, or even also negative values.
 
 
 
@@ -70,7 +73,10 @@ The dataset contains roughly 700 000 lines and 173 columns, with a high and prev
 ## Decode labels
 
 
-Just like what we said before, we are living in a world full of a variety of food products. Our immersion in this variety makes it difficult for us to make choices about the food we eat. Indeed, we would like to eat delicious healthy food, and this is the main problem. Most of the time, what we consider delicious is unhealthy and has bad effects on our mood, fatigue,  and life longevity. So how can we make a good balance in our choices of healthy food?
+Just like what we said before, we are living in a world full of a variety of food products. Our immersion in this variety makes it difficult for us to make choices about the food we eat. Indeed, we would like to eat delicious healthy food, and this is the main problem. Most of the time, what we consider delicious is unhealthy and has bad effects on our mood, fatigue,  and life longevity. 
+
+
+So how can we make a good balance in our choices of healthy food?
 
 <a id="grades"></a>
 ![Image](img/grades.png)
@@ -98,7 +104,10 @@ Through our analysis, we noticed that products containing palm oil/additives are
 
 So we clearly see that products having lots of amounts of palm oil and additives are usually ranked in a bad way. However, some of them seem to have exceptions which lead us to look into other features. These features are in general the several macronutrients (Proteins, fat and carbohydrates) but also in particular sugar and salt.
 
-We noticed that sugar, salt, fat and proteins are usually the nutrients that drive our concern over healthy/unhealthy food. Amounts of Carbohydrates do not differ that much from unhealthy to healthy food which is reasonable because carbohydrates are coming either from starchy food/pure sugar or fibres. Some of them (coming from starchy food) will have the tendency to be processed slowly and stored as fat slower than others (pure sugar). That's why we don't see any significant difference between the healthy/unhealthy products over carbohydrates. Let’s have a look at the features on which we see some slight differences  (sugar, salt, fat and proteins):
+We noticed that sugar, salt, fat and proteins are usually the nutrients that drive our concern over healthy/unhealthy food. Amounts of Carbohydrates do not differ that much from unhealthy to healthy food which is reasonable because carbohydrates are coming either from starchy food/pure sugar or fibres. Some of them (coming from starchy food) will have the tendency to be processed slowly and stored as fat slower than others (pure sugar). That's why we don't see any significant difference between the healthy/unhealthy products over carbohydrates. 
+
+
+Let’s have a look at the features on which we see some slight differences  (sugar, salt, fat and proteins):
 
 <a id="distrib2"></a>
 ![Image](img/distrib2.png)
