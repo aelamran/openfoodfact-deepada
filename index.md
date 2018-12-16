@@ -6,7 +6,7 @@
 ![Image](img/healthy.png)
 
 <a id="solution"></a>
-![Image](solution.png)
+![Image](img/solution.png)
 
 # Why Food for Good ?
 
@@ -87,8 +87,8 @@ So we clearly notice that unhealthy products seem to have lots of amount of suga
 
 
 
-<a id="compare"></a>
-![Image](compare_and_change.png)
+<a id="compare_and_change"></a>
+![Image](img/compare_and_change.png)
 
 
 
