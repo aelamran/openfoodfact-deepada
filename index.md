@@ -94,11 +94,11 @@ This first approach shows us that the "Plant-based-and-Beverages" products have 
 
 Through our analysis, we noticed that products containing palm oil/additives are usually considered as unhealthy, let’s look on the top 3 categories containing additives/palm oil and the distribution of their nutritional scores :
 
-### Top 3 categories containing additives:
+#### Top 3 categories containing additives:
 <a id="addtop3"></a>
 ![Image](img/additives_scores.png)
 
-### Top 3 categories containing palm oil:
+#### Top 3 categories containing palm oil:
 <a id="palmtop3"></a>
 ![Image](img/palm_oil_scores.png)
 
@@ -109,17 +109,21 @@ We noticed that sugar, salt, fat and proteins are usually the nutrients that dri
 
 Let’s have a look at the features on which we see some slight differences  (sugar, salt, fat and proteins):
 
+#### Density distribution of Fat over the products
 <a id="distrib2"></a>
 ![Image](img/distrib2.png)
 
-<a id="distrib3"></a>
-![Image](img/distrib3.png)
-
+#### Density distribution of Protein over the products
 <a id="distrib4"></a>
 ![Image](img/distrib4.png)
 
+#### Density distribution of Sugar over the products
 <a id="distrib5"></a>
 ![Image](img/distrib5.png)
+
+#### Quantity of Salt over the products
+<a id="distrib3"></a>
+![Image](img/distrib3.png)
 
 So we clearly notice that unhealthy products seem to have lots of amounts of sugar, fat and salt compared to healthy ones. Concerning Proteins, healthy products are among the ones that have the highest amounts of proteins in them.
 
