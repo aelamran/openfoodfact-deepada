@@ -111,7 +111,7 @@ Let’s have a look at the features on which we see some slight differences  (su
 
 #### Density distribution of Fat over the products:
 <a id="distribfat"></a>
-![Image](img/img_fat.png)
+![Image](img/distribfat.png)
 
 #### Density distribution of Protein over the products:
 <a id="distrib4"></a>
@@ -136,6 +136,9 @@ Let's have a preview on the different good products that we find:
 In general, we can advice customers who want to eat sugary foods and products that usually seem to be unhealthy to stick to some good labels (organic, lactose free, bio ...) in their food choices. Not only good labels but also stick to products that are plant based, non processed, avoid additives and palm oil, the word map resumes the choice of products in a good way. Furthermore, one can innove and make some good home made healthy recipes from these healthy products. One good step to follow up on our analysis is to propose these healthy recipes and mixtures of good products in order to produce healthy delicious non industrial home made food.
 
 <div class="quote"> Knowledge is power. Food knowledge is power to eat better! </div>
+
+<img src="img/final_img.png" alt="solution">
+
 
 
 
