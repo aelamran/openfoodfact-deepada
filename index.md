@@ -66,11 +66,11 @@ This first approach shows us that the "Plant-based-and-Beverages" products have 
 
 Through our analysis, we noticed that products containing palm oil/additives are usually considered as unhealthy, let’s look on the top 3 categories containing additives/palm oil and the distribution of their nutritional scores :
 
-Top 3 categories containing additives:
+### Top 3 categories containing additives:
 <a id="addtop3"></a>
 ![Image](img/additives_scores.png)
 
-Top 3 categories containing palm oil:
+### Top 3 categories containing palm oil:
 <a id="palmtop3"></a>
 ![Image](img/palm_oil_scores.png)
 
