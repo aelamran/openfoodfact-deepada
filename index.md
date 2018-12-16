@@ -10,6 +10,7 @@
 
 <style>
 h1 {color:red;}
+.page-header {background-color:yellow;}
 </style>
 # Why Food for Good?
 
