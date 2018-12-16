@@ -18,12 +18,14 @@ p{
 # Why Food for Good?
 
 Do you often struggle with making good food choices? Do you feel torn between seemingly “healthy” and “unhealthy” food? Are you attracted by the flashy colors of sugary snacks?
-
+<p>
 <img src="img/cake.png" alt="Cake">
 <center><label style="font-size: 10px">Fig 1 : Juicy cake</label></center>
+</p>
 Are you repulsed by the seemingly boring healthy food?
 <img src="img/healthy.png" alt="healthy">
 <center><label style="font-size: 10px">Fig 2 : Healthy food</label></center>
+
 
 In an era where transparency is needed and requested more than ever, but not always provided, it is important to know what we put in our plates. Food is at the core of our daily survival and is usually the factor that has the biggest influence on our health. Its effects are so wide that they are not always known and are often controversial.  
 
