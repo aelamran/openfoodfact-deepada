@@ -111,7 +111,7 @@ Let’s have a look at the features on which we see some slight differences  (su
 
 #### Density distribution of Fat over the products:
 <a id="distribfat"></a>
-![Image](img/distrib2.png)
+![Image](img/img_fat.png)
 
 #### Density distribution of Protein over the products:
 <a id="distrib4"></a>
