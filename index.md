@@ -8,12 +8,11 @@
 <a id="solution"></a>
 ![Image](img/solution.png)
 
+
+
 <style>
-header {
-  background-image: url('{{ site.baseurl }}/img/logo.png');
-}
-h1 {color:red;}
-.page-header {background-image: url('{{ site.baseurl }}/img/logo.png');}
+.project-name{color:white;margin-top:-30px} .project-tagline{opacity:1;}
+.page-header {background-image: url('/openfoodfact-deepada/img/logo.png');}
 </style>
 # Why Food for Good?
 
