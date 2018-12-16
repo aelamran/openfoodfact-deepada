@@ -12,6 +12,7 @@ p{
 }
 .quote{
   text-align: center;
+  color: green;
 }
 </style>
 # Why Food for Good?
